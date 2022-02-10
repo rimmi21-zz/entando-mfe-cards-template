@@ -1,0 +1,5 @@
+code: cards-section-app
+description: List of Cards
+components:
+  widgets:
+    - ui/widgets/widgets-dir/cards/cards-descriptor.yaml

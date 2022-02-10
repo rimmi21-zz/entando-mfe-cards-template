@@ -1,0 +1,38 @@
+Installing micro-frontend dependencies
+npm WARN @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.16.7 requires a peer of @babel/core@^7.13.0 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+
+audited 1898 packages in 9.064s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+found 22 vulnerabilities (2 low, 15 moderate, 4 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Building micro-frontend code
+
+> entando-mf-template@0.0.1 build /Users/sohini/entando-projects/cards-mfe/ui/widgets/widgets-dir/cards
+> react-app-rewired build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+44.68 KB  build/static/js/entando-mf-template-0.0.1.js
+23.71 KB  build/static/css/main.0a9ec390.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+npm install -g serve
+serve -s build
+
+Find out more about deployment here:
+
+https://cra.link/deployment
+
+widgets-dir - cards built successfully

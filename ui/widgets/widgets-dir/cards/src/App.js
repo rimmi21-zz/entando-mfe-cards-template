@@ -1,12 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, CardGroup } from "react-bootstrap";
-
+import one from "./1.png"
+import two from "./2.png"
+import three from "./3.png"
 export default function App() {
   return (
     <div>
       <CardGroup>
         <Card>
-          <Card.Img variant="top" src="./1.png" />
+          <Card.Img variant="top" src={one} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -20,7 +22,7 @@ export default function App() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="./2.png" />
+          <Card.Img variant="top" src={two} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -33,7 +35,7 @@ export default function App() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="./3.png" />
+          <Card.Img variant="top" src={three} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>

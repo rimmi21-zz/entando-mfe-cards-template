@@ -1,0 +1,6 @@
+code: cards-descriptor
+titles:
+  en: CARD MF
+  it: CARD MF
+group: free
+customUiPath: cards-descriptor.ftl
